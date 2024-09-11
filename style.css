@@ -18,24 +18,37 @@ body, html {
 
 .college-info h1 {
     font-size: 16px;
+    text-align: center;
     margin: 0;
     color: #333;
 }
 
 .college-info p {
     margin: 5px 0;
+    text-align: center;
     font-size: 14px;
     color: #666;
+    flex: 1; /* Allows the container to take up the available space */
+    width: 100%; /* Makes the college-info take full width */
 }
 
 .college-detail {
     display: flex;
-    gap: 20px;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align the detail items */
+    gap: 5px; /* Adds space between items */
     font-size: 12px;
 }
 
 .college-detail span {
     white-space: nowrap;
+    justify-content: center;
+}
+
+.college-detail .side-by-side { /* Special class for side-by-side display */
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between the two side-by-side items */
 }
 
 .button-container .degree-button {
