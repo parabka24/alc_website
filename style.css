@@ -6,6 +6,7 @@ body, html {
 
 .college-header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(to right, #88c2ff, #ffffff);
@@ -13,7 +14,13 @@ body, html {
 }
 
 .logo-container img, .anniversary img {
-    height: 80px; /* Adjust based on actual logo and anniversary image dimensions */
+    height: 150px; /* Adjust based on actual logo and anniversary image dimensions */
+}
+
+.college-info {
+text-align: center; /* Center align the text */
+flex: 1; /* Allows the container to take up the available space */
+width: 100%; /* Makes the college-info take full width */
 }
 
 .college-info h1 {
@@ -65,6 +72,13 @@ body, html {
     background-color: #003d7a; /* Darker blue on hover */
 }
 
+.anniversary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
 .anniversary img {
-    height: 50px; /* Adjust based on the anniversary image */
+    height: 150px; /* Adjust based on the anniversary image */
 }
