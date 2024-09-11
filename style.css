@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.college-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e6e6e6;
+    padding: 10px 20px;
+}
+
+.logo-container img, .anniversary img {
+    height: 80px; /* Adjust based on actual logo and anniversary image dimensions */
+}
+
+.college-info h1 {
+    font-size: 16px;
+    margin: 0;
+    color: #333;
+}
+
+.college-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.college-detail {
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+}
+
+.college-detail span {
+    white-space: nowrap;
+}
+
+.button-container .degree-button {
+    padding: 10px 20px;
+    background-color: #0056b3; /* Blue color; adjust as needed */
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button-container .degree-button:hover {
+    background-color: #003d7a; /* Darker blue on hover */
+}
+
+.anniversary img {
+    height: 50px; /* Adjust based on the anniversary image */
+}
