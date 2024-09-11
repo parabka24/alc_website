@@ -13,7 +13,7 @@ body, html {
     padding: 10px 20px;
 }
 
-.logo-container img, .anniversary img {
+.logo-container img{
     height: 150px; /* Adjust based on actual logo and anniversary image dimensions */
 }
 
@@ -21,6 +21,7 @@ body, html {
 text-align: center; /* Center align the text */
 flex: 1; /* Allows the container to take up the available space */
 width: 100%; /* Makes the college-info take full width */
+order: 2;
 }
 
 .college-info h1 {
@@ -58,7 +59,20 @@ width: 100%; /* Makes the college-info take full width */
     gap: 20px; /* Space between the two side-by-side items */
 }
 
-.button-container .degree-button {
+.anniversary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    order: 3; /* Places this at the end on small screens */
+}
+
+.anniversary img {
+    height: 150px; /* Adjust based on the anniversary image */
+}
+
+
+.degree-button {
     padding: 10px 20px;
     background-color: #0056b3; /* Blue color; adjust as needed */
     color: white;
@@ -68,17 +82,7 @@ width: 100%; /* Makes the college-info take full width */
     transition: background-color 0.3s;
 }
 
-.button-container .degree-button:hover {
+.degree-button:hover {
     background-color: #003d7a; /* Darker blue on hover */
 }
 
-.anniversary {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-
-.anniversary img {
-    height: 150px; /* Adjust based on the anniversary image */
-}
