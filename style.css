@@ -96,17 +96,18 @@ order: 2;
     list-style-type: none;
     background-color: #0056b3; /* Blue background */
     margin: 0;
-    padding: 10px 0;
+    padding: 14px 0;
 }
 
 .menu-bar li {
-    margin: 0 20px; /* 20px gap between items */
+    margin: 0 30px; /* 20px gap between items */
 }
 
 .menu-bar a {
     color: rgb(255, 204, 0);
+    font-weight: bold;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .menu-bar a:hover {
