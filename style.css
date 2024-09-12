@@ -150,6 +150,7 @@ order: 2;
     display: flex;
     transition: transform 0.5s ease-in-out;
     width: 600%; 
+    
 }
 
 .slides img {
@@ -157,6 +158,6 @@ order: 2;
     height: 100%;
     object-fit: cover;
     flex-shrink: 0;
-    display: block; /* Remove any space below images */
+    
 }
 
