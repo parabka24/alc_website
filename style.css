@@ -90,27 +90,45 @@ order: 2;
     background-color: #003d7a; /* Darker blue on hover */
 }
 
+.menu-bar {
+    background-color: #0056b3;
+    text-align: center;
+}
+
 .menu-bar ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    background-color: #0056b3; /* Blue background */
+    list-style: none;
+    padding: 0;
     margin: 0;
-    padding: 14px 0;
 }
 
-.menu-bar li {
-    margin: 0 30px; /* 20px gap between items */
+.menu-item {
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
 }
 
-.menu-bar a {
-    color: rgb(255, 204, 0);
-    font-weight: bold;
+.menu-item a {
+    color: white;
+    padding: 10px 20px;
     text-decoration: none;
-    font-size: 18px;
+    display: block;
 }
 
-.menu-bar a:hover {
-    text-decoration: underline;
+.menu-item .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    min-width: 160px;
 }
 
+.menu-item .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-item:hover .dropdown-content {
+    display: block;
+}
