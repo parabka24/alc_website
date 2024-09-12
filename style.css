@@ -108,7 +108,8 @@ order: 2;
 }
 
 .menu-item a {
-    color: white;
+    color: rgb(255, 208, 0);
+    font-weight: bold;
     padding: 10px 20px;
     text-decoration: none;
     display: block;
@@ -117,6 +118,7 @@ order: 2;
 .menu-item .dropdown-content {
     display: none;
     position: absolute;
+    margin-bottom: auto;
     background-color: #ffffff;
     box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
     min-width: 160px;
