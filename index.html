@@ -67,7 +67,6 @@
         let slideIndex = 0; 
         let slideInterval; 
     
-        // Function to initialize the slideshow
         function showSlides() {
             let slides = document.querySelectorAll('.slides img');
             for (let i = 0; i < slides.length; i++) {
@@ -78,25 +77,20 @@
             slides[slideIndex-1].style.display = "block";  
         }
     
-        // Start the slideshow
         function startSlideshow() {
             showSlides();
-            slideInterval = setInterval(showSlides, 3000); // Change image every 3 seconds
+            slideInterval = setInterval(showSlides, 3000); 
         }
-    
-        // Stop the slideshow
+
         function pauseSlideshow() {
             clearInterval(slideInterval);
         }
     
-        // Select the slider container
         const slider = document.querySelector('.slider');
     
-        // Event listeners for mouse enter and leave
         slider.addEventListener('mouseenter', pauseSlideshow);
         slider.addEventListener('mouseleave', startSlideshow);
     
-        // Initialize the slideshow
         startSlideshow();
     </script>
 </body>
