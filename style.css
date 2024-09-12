@@ -161,3 +161,46 @@ order: 2;
     
 }
 
+.title-card {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    color: white;
+    overflow: hidden; /* Ensures no overflow of content outside the container */
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%; /* Adjust the height of the overlay as needed */
+    background: linear-gradient(to top, rgba(255, 204, 0, 0.7), transparent); /* Adjust color and opacity */
+}
+
+.text-content {
+    position: absolute;
+    bottom: 10px; /* Adjust based on your design */
+    left: 10px; /* Adjust based on your design */
+    right: 10px; /* Ensures text does not overflow the card */
+}
+
+.text-content h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px; /* Adjust font size as needed */
+}
+
+.text-content p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* Adjust font size as needed */
+}
+
