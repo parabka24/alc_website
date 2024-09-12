@@ -174,6 +174,7 @@ order: 2;
     height: 100%;
     object-fit: cover; /* Ensures the image covers the container */
     display: block;
+    filter: blur(2px); 
 }
 
 .overlay {
@@ -182,25 +183,26 @@ order: 2;
     left: 0;
     right: 0;
     height: 50%; /* Adjust the height of the overlay as needed */
-    background: linear-gradient(to top, rgba(255, 204, 0, 0.7), transparent); /* Adjust color and opacity */
+    background: linear-gradient(to top, rgba(255, 204, 0, 0.9), transparent);
 }
 
 .text-content {
     position: absolute;
+    padding: 30px;
     bottom: 10px; /* Adjust based on your design */
-    left: 10px; /* Adjust based on your design */
+    left: 50px; /* Adjust based on your design */
     right: 10px; /* Ensures text does not overflow the card */
 }
 
 .text-content h1 {
     margin: 0;
     padding: 0;
-    font-size: 24px; /* Adjust font size as needed */
+    font-size: 30px; /* Adjust font size as needed */
 }
 
 .text-content p {
-    margin: 0;
+    margin: 1;
     padding: 0;
-    font-size: 16px; /* Adjust font size as needed */
+    font-size: 19px; /* Adjust font size as needed */
 }
 
