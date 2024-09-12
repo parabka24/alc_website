@@ -60,8 +60,45 @@
             <img src="https://avcjr.ac.in/wp-content/uploads/2022/05/IMG_20151112_165607_HDR-scaled.jpg" alt="Image 3">
             <img src="https://avcjr.ac.in/wp-content/uploads/2022/05/IMG_20150418_122602-scaled.jpg" alt="Image 4"> 
             <img src="https://avcjr.ac.in/wp-content/uploads/2022/05/IMG_20200618_123127-scaled.jpg" alt="Image 5"> 
-            <img src="https://avcjr.ac.in/wp-content/uploads/2022/05/IMG_20170126_121545_HDR-scaled.jpg" alt="Image ">  
+            <img src="https://avcjr.ac.in/wp-content/uploads/2022/05/IMG_20170126_121545_HDR-scaled.jpg" alt="Image 6">  
         </div>
     </div>
+    <script>
+        let slideIndex = 0; // Tracks the current slide
+        let slideInterval; // Will hold the interval ID
+    
+        // Function to initialize the slideshow
+        function showSlides() {
+            let slides = document.querySelectorAll('.slides img');
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex-1].style.display = "block";  
+        }
+    
+        // Start the slideshow
+        function startSlideshow() {
+            showSlides();
+            slideInterval = setInterval(showSlides, 3000); // Change image every 3 seconds
+        }
+    
+        // Stop the slideshow
+        function pauseSlideshow() {
+            clearInterval(slideInterval);
+        }
+    
+        // Select the slider container
+        const slider = document.querySelector('.slider');
+    
+        // Event listeners for mouse enter and leave
+        slider.addEventListener('mouseenter', pauseSlideshow);
+        slider.addEventListener('mouseleave', startSlideshow);
+    
+        // Initialize the slideshow
+        startSlideshow();
+    </script>
 </body>
+
 </html>

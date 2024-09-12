@@ -139,3 +139,21 @@ order: 2;
 .menu-item:hover .dropdown-content {
     display: block;
 }
+
+.slider {
+    width: 100%;
+    overflow: hidden; /* Hide anything outside the slider container */
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 300%; /* Adjust based on number of images, e.g., 3 images = 300% */
+}
+
+.slides img {
+    width: 33.333%; /* Adjust based on number of images */
+    flex-shrink: 0;
+    display: block; /* Remove any space below images */
+}
+
