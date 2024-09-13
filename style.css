@@ -182,27 +182,27 @@ order: 2;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 50%; /* Adjust the height of the overlay as needed */
+    height: 50%;
     background: linear-gradient(to top, rgba(255, 204, 0, 0.9), transparent);
 }
 
 .text-content {
     position: absolute;
     padding: 30px;
-    bottom: 10px; /* Adjust based on your design */
-    left: 50px; /* Adjust based on your design */
-    right: 10px; /* Ensures text does not overflow the card */
+    bottom: 10px; 
+    left: 50px; 
+    right: 10px; 
 }
 
 .text-content h1 {
     margin: 0;
     padding: 0;
-    font-size: 30px; /* Adjust font size as needed */
+    font-size: 30px; 
 }
 
 .text-content p {
     margin: 1;
     padding: 0;
-    font-size: 19px; /* Adjust font size as needed */
+    font-size: 19px; 
 }
 
