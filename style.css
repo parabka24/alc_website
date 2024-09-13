@@ -209,3 +209,22 @@ order: 2;
     font-size: 19px; 
 }
 
+.aim{
+    text-align: center;
+    color: #0056b3;
+}
+
+.para{
+    text-align: justify;
+    background-color: #e2eef5;
+    border-radius: 70px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 20px;
+    color: #000000;
+    margin-right: 50%;
+    margin-left: 50px;
+    line-height: 28px;
+    font-size: large;
+    font-family: sans-serif;
+}
