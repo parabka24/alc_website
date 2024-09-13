@@ -228,3 +228,12 @@ order: 2;
     font-size: large;
     font-family: sans-serif;
 }
+
+.content{
+    text-align: justify;
+    margin-left: 8%;
+    margin-right: 8%;
+    line-height: 28px;
+    font-family: sans-serif;
+    font-size: large;
+}
