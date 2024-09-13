@@ -1,1 +1,1 @@
-# alc_website
+# Welcome to Vidyavardhini's Annasaheb Law College
