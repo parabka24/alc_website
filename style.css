@@ -304,14 +304,14 @@ footer {
     position: absolute;
     padding: 10px 20px;
     width: calc(100% - 40px); 
-    background-color: #343238; 
-    border-top: 6px solid #ffffff; 
+    background-color: #3b3741; 
+    border-top: 3px solid #ffffff; 
 }
 .footer-bottom .copyright {
     text-align: left;
     margin-left: 10px;
     text-decoration: underline;
-    
+   
 
 }
 .footer-bottom .powered-by {
