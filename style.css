@@ -332,18 +332,20 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    border: 2px solid black;
     padding: 10px;
+    flex-direction: column; 
 }
 
 .president img {
-    width: 374px;
+    width: 240px;
     height: auto;
-    margin-right: 10px;
+    margin-left: 165%;
 }
 
 .caption {
     text-align: center;
+    padding-top: 10px;
+    margin-left: 52%;
 }
 
 h3, p {
