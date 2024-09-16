@@ -253,6 +253,32 @@ order: 2;
     font-size: large;
 }
 
+.founders-container {
+    display: flex;  
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+  }
+  
+  .founder {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 10px; 
+  }
+  
+  .founder img {
+    width: 150px; 
+    height: auto; 
+  }
+  
+  .founder p {
+    margin-top: 8px; 
+    text-align: center;
+    font-size: 14px; 
+    color: #000; 
+  }
+  
+
 footer {
     background-color: #343238;
     color: white;
