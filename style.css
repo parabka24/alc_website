@@ -203,9 +203,15 @@ order: 2;
 .aim{
     text-align: center;
     color: #0056b3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px;
+    gap: 20px;
 }
 
 .para{
+    flex: 1;
     text-align: justify;
     background-color: #e2eef5;
     border-radius: 70px;
@@ -219,6 +225,19 @@ order: 2;
     font-size: large;
     font-family: sans-serif;
 }
+
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+ 
+  .education img {
+    width: 200px; 
+    height: auto;
+    border-radius: 0; 
+  }
 
 .content{
     text-align: justify;
