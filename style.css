@@ -210,7 +210,9 @@ order: 2;
     justify-content: space-between; 
     align-items: center; 
     padding: 20px;
-    gap: 20px; 
+    gap: 10px; 
+    display: flex;
+    margin-right: 10%;
 }
 
 .para{
@@ -220,7 +222,7 @@ order: 2;
     border-bottom-left-radius: 0;
     padding: 20px;
     color: #000000;
-    margin-right: 50%;
+    margin-right: 8%;
     margin-left: 50px;
     line-height: 28px;
     font-size: large;
@@ -235,7 +237,7 @@ order: 2;
   }
   
   .education img {
-    width: 380px;
+    width: 480px;
     height: auto;
   }
   
