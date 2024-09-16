@@ -6,7 +6,7 @@
 
 ### Notes 
 <p>
-  <p>Industry-Based Project:</p> This project is developed as part of an industry-based live project, focusing on real-world application and professional design standards.
+  <b>Industry-Based Project:</b> This project is developed as part of an industry-based live project, focusing on real-world application and professional design standards.<br>
   <b>Purpose:</b> Serves as both a practical implementation of web design principles and a demonstration of industry-level skills.
 </p>
 
