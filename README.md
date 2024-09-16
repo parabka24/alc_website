@@ -28,6 +28,10 @@ The website boasts a range of features that cater to the diverse needs of its us
 </p>
 
 
-
+### Acknowledgments
+<p>
+Special thanks to the Vidyavardhini's College of Engineering for providing the design reference and context for this project.<br>
+Inspired by industry standards and best practices in web design and development.
+</p>
 
 ### Thank you for visiting and exploring the website!
