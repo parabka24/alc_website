@@ -53,46 +53,11 @@
             </li>
         </ul>
     </nav>
-    <div class="slider">
-        <div class="slides">
-            <img src="https://avcjr.ac.in/wp-content/uploads/2022/05/IMG_20151112_170337_HDR-scaled.jpg" alt="Image 1"> 
-            <img src="https://avcjr.ac.in/wp-content/uploads/2022/05/IMG_20170313_212924-scaled.jpg" alt="Image 2"> 
-            <img src="https://avcjr.ac.in/wp-content/uploads/2022/05/IMG_20151112_165607_HDR-scaled.jpg" alt="Image 3">
-            <img src="https://avcjr.ac.in/wp-content/uploads/2022/05/IMG_20150418_122602-scaled.jpg" alt="Image 4"> 
-            <img src="https://avcjr.ac.in/wp-content/uploads/2022/05/IMG_20200618_123127-scaled.jpg" alt="Image 5"> 
-            <img src="https://avcjr.ac.in/wp-content/uploads/2022/05/IMG_20170126_121545_HDR-scaled.jpg" alt="Image 6">  
+        <div class="image-container">
+            <img src="C:\Users\KomalParab\OneDrive\Desktop\Icons & Images for code\img5.jpg" alt="Image 5"> 
+            <img src="C:\Users\KomalParab\OneDrive\Desktop\Icons & Images for code\img6.jpg" alt="Image 6"> 
+            <img src="C:\Users\KomalParab\OneDrive\Desktop\Icons & Images for code\img3.jpg" alt="Image 3">  
         </div>
-    </div>
-    <script>
-        let slideIndex = 0; 
-        let slideInterval; 
-    
-        function showSlides() {
-            let slides = document.querySelectorAll('.slides img');
-            for (let i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) { slideIndex = 1 }
-            slides[slideIndex-1].style.display = "block";  
-        }
-    
-        function startSlideshow() {
-            showSlides();
-            slideInterval = setInterval(showSlides, 3000); 
-        }
-
-        function pauseSlideshow() {
-            clearInterval(slideInterval);
-        }
-    
-        const slider = document.querySelector('.slider');
-    
-        slider.addEventListener('mouseenter', pauseSlideshow);
-        slider.addEventListener('mouseleave', startSlideshow);
-    
-        startSlideshow();
-    </script>
     <footer>
         <div class="footer-content">
         <div class="map-container">
