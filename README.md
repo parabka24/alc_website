@@ -35,3 +35,4 @@ Inspired by industry standards and best practices in web design and development.
 </p>
 
 ### Thank you for visiting and exploring the website!
+<p>If you have any feedback or suggestions, please feel free to reach out to us.</p>
