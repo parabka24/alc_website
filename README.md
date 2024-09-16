@@ -4,7 +4,7 @@
   Welcome to the website of Annasaheb Law College, meticulously designed and developed to provide a seamless, informative, and user-friendly digital platform for students, faculty, and the legal community.<br><br><b>This project is a live industry-based clone of the college website Vidyavardhini's Annasaheb Vartak College. It replicates the design and functionality of the original site, tailored for real-world application and industry standards.</b>As the web developer, I have infused the site with modern web technologies and best practices to ensure high performance, accessibility, and compliance with the latest web standards. The design reflects the college's stature, with a professional layout that facilitates easy navigation and an engaging user experience. This platform is designed to provide prospective students, current students, and alumni the ability to explore various aspects of the college, its history, and its offerings.
 </p>
 
-### Notes 
+### Please Note
 <p>
   <b>Industry-Based Project:</b> This project is developed as part of an industry-based live project, focusing on real-world application and professional design standards.<br>
   <b>Purpose:</b> Serves as both a practical implementation of web design principles and a demonstration of industry-level skills.
