@@ -6,10 +6,10 @@
 
 ### Features
 <p>
-  Explore Vidyavardhini's Degree College: Users can learn about the academic programs offered, campus facilities, faculty, and more.
-Founders & Leadership: Dedicated sections about the founders of Vidyavardhini and the current president provide insights into the visionary leaders behind the institution.
-College Library: Users can explore the resources available in the college library, including book catalogues, e-resources, and library services.
-Additional Information: The website also includes information on extra-curricular activities, admissions, and academic calendars.
+  <b>Explore Vidyavardhini's Degree College:</b> Users can learn about the academic programs offered, campus facilities, faculty, and more.
+<b>Founders & Leadership:</b> Dedicated sections about the founders of Vidyavardhini and the current president provide insights into the visionary leaders behind the institution.
+<b>College Library:</b> Users can explore the resources available in the college library, including book catalogues, e-resources, and library services.
+<b>Additional Information:</b> The website also includes information on extra-curricular activities, admissions, and academic calendars.
 </p>
 
 
