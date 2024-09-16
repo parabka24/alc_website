@@ -255,46 +255,47 @@ order: 2;
 
 .founders-grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr); /* Adjust for five columns on the second row */
-    grid-template-rows: auto auto auto; /* Two rows */
-    gap: 15px;
+    grid-template-columns: repeat(5, 1fr); /* Five columns for the main row */
+    gap: 15px; /* Space between grid items */
     justify-content: center;
-  }
- 
-  
-  .founder {
+    align-items: center;
+}
+
+.founder {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center; 
     margin: 10px; 
-  }
-  
-  .founder img {
-    width: 200px; 
-    height: auto; 
-  }
-  
-  .founder p {
-    margin-top: 8px; 
+}
+
+.founder img {
+    width: 200px;
+    height: auto;
+}
+
+.founder p {
+    margin-top: 8px;
     text-align: center;
-    font-size: 18px; 
+    font-size: 18px;
     font-weight: bold;
     color: #000; 
-  }
+}
 
-  .founders-grid > .founder:first-child {
-    grid-column: 1 / -1; 
-  }
+/* Setting the first founder to take the entire row */
+.founders-grid > .founder:first-child {
+    grid-column: 1 / -1;
+}
 
-  .founders-grid > .founder:nth-child(2) {
-    grid-column-start: 2;
-  }
+/* Centering the five founders in the second row */
+.founders-grid > .founder:nth-child(n+2):nth-child(-n+6) {
+    grid-column-end: span 1; /* Each founder takes one fraction of the space */
+}
 
-  .founders-grid > .founder:last-child {
-    grid-column: 1 / -1; 
-  }
-    
+/* Placing the last founder in a new row by itself, centered */
+.founders-grid > .founder:last-child {
+    grid-column: 2 / span 3; /* Centering the last founder */
+}
 
 footer {
     background-color: #343238;
@@ -369,7 +370,6 @@ footer {
     text-align: left;
     margin-left: 10px;
     text-decoration: underline;
-   
 
 }
 .footer-bottom .powered-by {
@@ -425,7 +425,6 @@ footer {
     text-align: center;
   }
   
-
 .ppara1{
     text-align: justify;
     border-top-right-radius: 0;
