@@ -112,6 +112,7 @@ order: 2;
 .menu-item a {
     color: rgb(255, 208, 0);
     font-weight: bold;
+    font-size: large;
     padding: 10px 20px;
     text-decoration: none;
     display: block;
@@ -227,6 +228,7 @@ order: 2;
     line-height: 28px;
     font-size: large;
     font-family: sans-serif;
+    text-align: justify;
 }
 
 
