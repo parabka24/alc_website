@@ -7,7 +7,7 @@
 
 ### Credits
 <p>
-  Komal Parab <br>
+  <a href="https://www.linkedin.com/in/komal-parab-94704a27a/">Komal Parab</a> <br>
   Kajal Tiwari
 </p>
 
