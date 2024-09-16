@@ -267,14 +267,15 @@ order: 2;
   }
   
   .founder img {
-    width: 150px; 
+    width: 200px; 
     height: auto; 
   }
   
   .founder p {
     margin-top: 8px; 
     text-align: center;
-    font-size: 14px; 
+    font-size: 18px; 
+    font-weight: bold;
     color: #000; 
   }
   
