@@ -26,17 +26,18 @@ order: 2;
 }
 
 .college-info h1 {
-    font-size: 24px;
+    font-size: 35px;
     text-align: center;
     margin: 0;
     color: #333;
 }
 
 .college-info p {
-    margin: 5px 0;
+    margin: 0;
     text-align: center;
+    font-weight: bold;
     font-size: 20px;
-    color: #666;
+    color: #000000;
     flex: 1; 
     width: 100%; 
 }
@@ -59,7 +60,7 @@ order: 2;
     display: flex;
     justify-content: center;
     font-size: 18px;
-    gap: 20px; 
+    gap: 40px; 
 }
 
 .anniversary {
