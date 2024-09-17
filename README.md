@@ -18,6 +18,7 @@ The website boasts a range of features that cater to the diverse needs of its us
 <b>Founders & Leadership:</b> Dedicated sections about the founders of Vidyavardhini and the current president provide insights into the visionary leaders behind the institution.<br>
 <b>College Library:</b> Users can explore the resources available in the college library, including book catalogues, e-resources, and library services.<br>
 <b>Additional Information:</b> The website also includes information on extra-curricular activities, admissions, and academic calendars.
+<b>Instant Access to Merit List PDF:</b> When the user clicks on the merit list options, they can directly download the merit list PDF file.
 </p>
 
 
