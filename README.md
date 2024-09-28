@@ -26,7 +26,8 @@ The website boasts a range of features that cater to the diverse needs of its us
 ### Credits
 <p>
   <a href="https://www.linkedin.com/in/komal-parab-94704a27a/">Komal Parab</a> <br>
-  <a href=https://www.linkedin.com/in/kajal-tiwari-a84161303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app>Kajal Tiwari</a>
+  <a href=https://www.linkedin.com/in/kajal-tiwari-a84161303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app>Kajal Tiwari</a> <br>
+  <a href=https://www.linkedin.com/in/devanshi-solanki-698486232/>Devanshi Solanki</a>
 </p>
 
 
