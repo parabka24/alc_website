@@ -44,7 +44,18 @@ h2 {
     margin-bottom: 5px; 
 }
 
-.form-group1 input[type="text"] {
+.form-group1 input[type="text"]
+ {
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-group1 input[type="tel"] {
     padding: 10px;
     margin-bottom: 15px; 
     border: 1px solid #cccccc;
