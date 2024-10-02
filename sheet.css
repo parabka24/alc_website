@@ -1,22 +1,85 @@
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f2f5;
     margin: 0;
     padding: 0;
-    margin-left: 492px;
-    justify-content: center;
-    align-items: center;
+    margin-left: 480px;
+    justify-content: center; 
+    align-items: center; 
     height: 100vh;
 }
 
+/* Header styling */
+.college-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #ececec, #ecf2f8);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 1200px; 
+    box-sizing: border-box;
+}
+
+.logo-container img {
+    height: 30px; 
+}
+
+.college-info {
+    flex: 1;
+    text-align: center;
+    padding: 0 10px;
+
+}
+
+.college-info h1 {
+    font-size: 20px; 
+    color: #333;
+    margin: 5px 0;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.college-info p {
+    font-size: 12px; 
+    font-weight: bold;
+    color: #000;
+    margin: 3px 0;
+}
+
+.college-detail {
+    font-size: 12px;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+
+.side-by-side {
+    display: block; 
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.side-by-side span {
+    display: block; 
+    margin-bottom: 3px; 
+    font-size: 12px; 
+}
+
+/* Form container styling */
 .form-container {
     background-color: #ffffff;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h2 {
@@ -24,70 +87,25 @@ h2 {
     margin-bottom: 20px;
 }
 
-
-.form-group {
+.form-group, .form-group1 {
+    width: 100%;
     margin-bottom: 20px;
     text-align: left;
 }
 
-.form-group1 {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    text-align: left;
-
-}
-
-.form-group1 label {
-    font-size: 16px;
-    color: #666666;
-    margin-bottom: 5px; 
-}
-
-.form-group1 input[type="text"]
- {
+.form-group1 input[type="text"], .form-group1 input[type="tel"], input[type="email"], textarea {
+    width: 100%;
     padding: 10px;
     margin-bottom: 15px; 
     border: 1px solid #cccccc;
     border-radius: 5px;
     font-size: 14px;
-    width: 100%;
     box-sizing: border-box;
 }
-
-.form-group1 input[type="tel"] {
-    padding: 10px;
-    margin-bottom: 15px; 
-    border: 1px solid #cccccc;
-    border-radius: 5px;
-    font-size: 14px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-
-
-label {
-    font-size: 16px;
-    color: #666666;
-}
-
-
-input[type="text"], input[type="email"], textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 14px;
-}
-
 
 textarea {
     resize: none;
 }
-
 
 .radio-group {
     display: flex;
@@ -100,7 +118,6 @@ textarea {
     cursor: pointer;
 }
 
-
 input[type="submit"] {
     background-color: #003d7a;
     color: white;
@@ -110,16 +127,45 @@ input[type="submit"] {
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
-    
 }
 
 input[type="submit"]:hover {
     background-color: #45a053;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+    .college-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .college-info h1 {
+        font-size: 12px; 
+    }
+
+    .college-info p {
+        font-size: 8px; 
+    }
+
+    .college-detail, .side-by-side {
+        font-size: 8px; 
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .logo-container img, .anniversary img {
+        height: 50px; 
+    }
+}
+
 @media (max-width: 600px) {
     .form-container {
-        width: 100%;
+        width: 90%;
         padding: 20px;
+    }
+
+    .logo-container img {
+        height: 100px;
     }
 }

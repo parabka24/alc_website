@@ -8,18 +8,37 @@
 </head>
 <body>
     <div class="form-container">
+        <header class="college-header">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="C:\Users\KomalParab\Downloads\vcet-logo-removebg-preview.png" alt="College Logo">
+                </a>
+            </div>
+            <div class="college-info">
+                <h1>VIDYAVARDHINI LAW COLLEGE</h1>
+                <p>Approved by Bar Council of India & Affiliated to University of Mumbai</p>
+                <div class="college-detail">
+                    <span>5 years B.A. LL.B Course w.e.f Academic year 2024-2025</span><br>
+                    <div class="side-by-side">
+                        <span>Mumbai University College Code: <u>1302</u></span>
+                        <span>State CET cell College Code: <u>24053</u></span>
+                        <span>Course Code: <u>2405310812</u></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
         <h2>Grievance Form</h2>
         <form action="submit.php" method="POST">
             <div class="form-group1">
-                <label for="name">Surname:</label>
-                <input type="text" id="surname" name="name" placeholder="Enter your Surname" required>
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="surname" placeholder="Enter your Surname" required>
 
-                <label for="name">First Name:</label>
-                <input type="text" id="fname" name="name" placeholder="Enter your First name" required>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter your First Name" required>
 
-                <label for="name">Middle Name:</label>
-                <input type="text" id="mname" name="name" placeholder="Enter your Middle name" required>
-
+                <label for="mname">Middle Name:</label>
+                <input type="text" id="mname" name="mname" placeholder="Enter your Middle Name" required>
             </div>
 
             <div class="form-group">
@@ -45,7 +64,6 @@
             <div class="form-group">
                 <label for="grievance">Grievance:</label>
                 <textarea id="grievance" name="grievance" rows="4" placeholder="Describe your grievance here..." required></textarea>
-
             </div>
 
             <div class="form-group1">
