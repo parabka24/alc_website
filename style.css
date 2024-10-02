@@ -447,3 +447,90 @@ footer {
     line-height: 28px;
     font-size: large;
 }
+
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo-container img,
+    .anniversary img {
+        max-width: 100px;
+    }
+
+    .college-info h1 {
+        font-size: 20px;
+    }
+
+    .college-detail {
+        font-size: 14px;
+    }
+
+    .menu-bar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .image-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    .logo-container img,
+    .anniversary img {
+        max-width: 80px;
+    }
+
+    .college-info h1 {
+        font-size: 18px;
+    }
+
+    .college-detail {
+        font-size: 12px;
+    }
+
+    .menu-bar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-item {
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+
+    .image-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-items img {
+        width: 100%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .map-container iframe {
+        width: 100%;
+    }
+
+    .contact-info {
+        margin-top: 10px;
+    }
+}
