@@ -201,17 +201,8 @@ order: 2;
     padding: 0;
     font-size: 19px; 
 }
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    padding: 18px;
-    grid-gap: 10px; 
-}
 
-.grid-items img {
-    width: 100%;
-    height: auto; 
-}
+
 
 
 .objective{

@@ -40,7 +40,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 $conn->close();
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,6 +50,6 @@ $conn->close();
 <body>
     <h2>Submission Status</h2>
     <?php if ($success_message) { echo "<p>$success_message</p>"; } ?>
-    <a href="http://localhost/my_project/index.html">Go back to form</a>
+
 </body>
 </html>
