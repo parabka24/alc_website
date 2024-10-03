@@ -4,10 +4,149 @@ body {
     background-color: #f7f7f7;
     margin: 0;
     padding: 0;
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+.college-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #88c2ff, #ffffff);
+    padding: 10px 20px;
+}
+
+.logo-container img{
+    height: 150px; 
+    padding-left: 28%;
+}
+
+.college-info {
+text-align: center; 
+flex: 1; 
+width: 100%; 
+order: 2;
+}
+
+.college-info h1 {
+    font-size: 45px;
+    text-align: center;
+    margin: 0;
+    color: #333;
+}
+
+.college-info p {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    flex: 1; 
+    width: 100%; 
+}
+
+.college-detail {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.college-detail span {
+    white-space: nowrap;
+    justify-content: center;
+}
+
+.college-detail .side-by-side { 
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    gap: 40px; 
+}
+
+.anniversary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 28px;
+    gap: 10px;
+    order: 3; 
+}
+
+.anniversary img {
+    height: 135px; 
+}
+
+
+.degree-button {
+    padding: 10px 20px;
+    background-color: #0056b3; 
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.degree-button:hover {
+    background-color: #003d7a;
+}
+
+.menu-bar {
+    background-color: #f5f7fa;
+    text-align: center;
+}
+
+.menu-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative; 
+    z-index: 5; 
+}
+
+.menu-item {
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.menu-item a {
+    color: rgb(255, 208, 0);
+    font-weight: bold;
+    font-size: large;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-item .dropdown-content {
+    display: none;
+    position: absolute;
+    margin-bottom: auto;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    min-width: 160px;
+}
+
+.menu-item .dropdown-content a {
+    color: black;
+    padding: 18px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-item .dropdown-content a:hover {
+    background-color: #0056b3; 
+    color: white;
+}
+
+.menu-item:hover .dropdown-content {
+    display: block;
 }
 
 .faq-container {
@@ -74,6 +213,104 @@ h2 {
     color: #ff4d4f;
 }
 
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    padding: 10px 20px;
+    width: calc(100% - 40px); 
+    background-color: #3b3741; 
+    border-top: 3px solid #ffffff; 
+}
+.footer-bottom .copyright {
+    text-align: left;
+    margin-left: 10px;
+    text-decoration: underline;
+
+}
+.footer-bottom .powered-by {
+    color: #ffffff;
+    text-align: right;
+    margin-right: 10px;
+    text-decoration: underline;
+    
+}
+.footer-bottom .powered-by a:hover {
+    text-decoration: underline;
+    color: #fefdff; 
+
+}
+
+.content-wrapper1 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 10px;
+  }
+  
+  .text-content1 {
+    flex: 3;  
+    text-align: justify;
+    margin-top: 48px;
+    margin-right: 350px; 
+    margin-left: 50px;
+    line-height: 28px;
+    font-size: large;
+  }
+  
+  .image-content1 {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;  
+  }
+  
+  .image-content1 img {
+    padding-top: 30px;
+    margin-right: 150%;
+    width: 240px; 
+    height: auto;
+    margin-bottom: 10px; 
+  }
+   
+  h3, h4{
+    margin-right: 150%;
+    width: 240px; 
+    height: auto;
+    text-align: center;
+  }
+  
+.ppara1{
+    text-align: justify;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 10px;
+    color: #000000;
+    margin-right: 50px;
+    margin-left: 50px;
+    line-height: 28px;
+    font-size: large;
+}
+.footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.map-container iframe {
+    width: 100%;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+
 /* Responsive Design */
 @media (max-width: 600px) {
     .faq-container {
@@ -83,4 +320,69 @@ h2 {
     .faq-question {
         font-size: 16px;
     }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo-container img,
+    .anniversary img {
+        max-width: 100px;
+    }
+
+    .college-info h1 {
+        font-size: 20px;
+    }
+
+    .college-detail {
+        font-size: 14px;
+    }
+
+    .menu-bar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .image-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    .logo-container img,
+    .anniversary img {
+        max-width: 80px;
+    }
+
+    .college-info h1 {
+        font-size: 18px;
+    }
+
+    .college-detail {
+        font-size: 12px;
+    }
+
+    .menu-bar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-item {
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+
 }
