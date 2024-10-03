@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Section</title>
+    <link rel="stylesheet" href="faq-sheet.css">
+</head>
+<body>
+    <div class="faq-container">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>What is Vidyavardhini's College about?</span>
+                <i class="icon">+</i>
+            </div>
+            <div class="faq-answer">
+                <p>Vidyavardhini's College is a reputed institution offering a wide range of undergraduate and postgraduate programs focused on quality education and overall student development.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>How do I apply for admission?</span>
+                <i class="icon">+</i>
+            </div>
+            <div class="faq-answer">
+                <p>You can apply for admission through our online portal during the admission period. All necessary documents should be submitted online or at the admissions office.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>What courses are available?</span>
+                <i class="icon">+</i>
+            </div>
+            <div class="faq-answer">
+                <p>We offer a wide range of undergraduate and postgraduate programs in fields such as Engineering, Arts, Science, and Commerce.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>How can I contact the administration?</span>
+                <i class="icon">+</i>
+            </div>
+            <div class="faq-answer">
+                <p>You can reach out to the administration through our contact page, or directly email the concerned department listed on our website.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+                <span>Is there a scholarship program?</span>
+                <i class="icon">+</i>
+            </div>
+            <div class="faq-answer">
+                <p>Yes, we offer scholarships to deserving students based on academic performance and other criteria. Details are available on our scholarship page.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const faqItems = document.querySelectorAll('.faq-item');
+
+faqItems.forEach(item => {
+    const question = item.querySelector('.faq-question');
+
+    question.addEventListener('click', () => {
+        // Close all other FAQ answers
+        faqItems.forEach(i => {
+            if (i !== item) {
+                i.querySelector('.faq-answer').style.display = 'none';
+                i.querySelector('.faq-question .icon').textContent = '+';
+            }
+        });
+
+        // Toggle the current FAQ answer
+        const answer = item.querySelector('.faq-answer');
+        const icon = question.querySelector('.icon');
+        if (answer.style.display === 'block') {
+            answer.style.display = 'none';
+            icon.textContent = '+';
+        } else {
+            answer.style.display = 'block';
+            icon.textContent = '-';
+        }
+    });
+});
+    </script>
+</body>
+</html>
